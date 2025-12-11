@@ -8,9 +8,9 @@
     "sources": "https://github.com/Bactrosaurus/bactromod",
     "homepage": "https://modrinth.com/mod/bactromod"
   },
-  "description": "A lightweight mod with some game optimizations and features.",
+  "description": "A mod that infects your settings with bacteria to have more options.",
   "version": "3.3",
-  "name": "BactroMod",
+  "name": "BacteriaMod",
   "environment": "client",
   "license": "LGPL-3.0-only",
   "icon": "assets/bactromod/icon.png",
@@ -26,4 +26,5 @@
     "fabricloader": ">=0.17.2",
     "minecraft": ">=1.21.10"
   }
+
 }
