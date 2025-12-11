@@ -1,7 +1,7 @@
-# BactroMod
+# BacteriaMod
 
-BactroMod is an utility mod that adds new possibilities of customizing your visual in-game experience while providing some additional features.
-Download on Modrinth: https://modrinth.com/mod/bactromod
+BacteriaMod is an utility mod that infects your game with a bacterial infection, allowing you to customize your visual in-game experience while providing some additional features.
+Download the original on Modrinth: https://modrinth.com/mod/bactromod
 
 ## Features
 
@@ -18,4 +18,5 @@ Download on Modrinth: https://modrinth.com/mod/bactromod
 ![](https://i.imgur.com/CIdyeb7.png)
 
 ![](https://i.imgur.com/07NFlrz.png)
+
 
