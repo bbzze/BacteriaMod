@@ -5,7 +5,6 @@ Download on Modrinth: https://modrinth.com/mod/bactromod
 
 ## Features
 
-* Gamma Modifier (Fullbright)
 * Disable Pumpkin Blur
 * Fix shield position while using riptide-trident in water or rain
 * Customizable Fire Offset (Low fire)
@@ -19,3 +18,4 @@ Download on Modrinth: https://modrinth.com/mod/bactromod
 ![](https://i.imgur.com/CIdyeb7.png)
 
 ![](https://i.imgur.com/07NFlrz.png)
+
