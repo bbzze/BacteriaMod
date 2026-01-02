@@ -11,10 +11,10 @@ public class ConfigData {
     @ConfigOption()
     public boolean pumpkinBlur = false;
 
-    @ConfigOption(intMin = -100, intMax = 100);
-    public int fireOffset = 0
+    @ConfigOption(intMin = -100, intMax = 100)
+    public int fireOffset = 0;
 
-    @ConfigOption(intMin = -100, intMax = 100);
+    @ConfigOption(intMin = -100, intMax = 100)
     public int shieldOffset = -20;
 
     @ConfigOption()
