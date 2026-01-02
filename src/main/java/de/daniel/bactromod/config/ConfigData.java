@@ -12,7 +12,7 @@ public class ConfigData {
     public boolean pumpkinBlur = false;
 
     @ConfigOption(intMin = -100, intMax = 100)
-    public int fireOffset = 0https://github.com/bbzze/BacteriaMod.git;
+    public int fireOffset = 0
 
     @ConfigOption(intMin = -100, intMax = 100)
     public int shieldOffset = -20;
