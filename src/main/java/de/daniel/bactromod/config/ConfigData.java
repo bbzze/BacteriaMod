@@ -12,7 +12,7 @@ public class ConfigData {
     public boolean pumpkinBlur = false;
 
     @ConfigOption(intMin = -100, intMax = 100)
-    public int fireOffset = -30;
+    public int fireOffset = 0https://github.com/bbzze/BacteriaMod.git;
 
     @ConfigOption(intMin = -100, intMax = 100)
     public int shieldOffset = -20;
@@ -33,12 +33,12 @@ public class ConfigData {
     public boolean waterFog = false;
 
     @ConfigOption()
-    public boolean dimensionBossFog;
+    public boolean dimensionBossFog = false;
 
-    @ConfigOption(boolDefault = true)
-    public boolean showMapWhileInBoat;
+    @ConfigOption()
+    public boolean showMapWhileInBoat = true;
 
-    @ConfigOption(boolDefault = true)
-    public boolean fixShieldRiptideTrident;
+    @ConfigOption() 
+    public boolean fixShieldRiptideTrident = true;
 
 }
