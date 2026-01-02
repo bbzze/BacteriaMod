@@ -9,7 +9,7 @@
     "homepage": "https://modrinth.com/mod/bactromod"
   },
   "description": "A mod that infects your settings with bacteria to have more options.",
-  "version": "3.3",
+  "version": "3.4",
   "name": "BacteriaMod",
   "environment": "client",
   "license": "LGPL-3.0-only",
@@ -23,8 +23,8 @@
   ],
   "accessWidener" : "bactromod.accesswidener",
   "depends": {
-    "fabricloader": ">=0.17.2",
-    "minecraft": ">=1.21.10"
+    "fabricloader": ">=0.18.2",
+    "minecraft": ">=1.21.11"
   }
 
 }

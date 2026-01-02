@@ -9,28 +9,28 @@ public class ConfigData {
      */
 
     @ConfigOption()
-    public boolean pumpkinBlur;
+    public boolean pumpkinBlur = false;
 
-    @ConfigOption(intMin = -100, intMax = 100, intDefault = -30)
-    public int fireOffset;
+    @ConfigOption(intMin = -100, intMax = 100)
+    public int fireOffset = -30;
 
-    @ConfigOption(intMin = -100, intMax = 100, intDefault = -20)
-    public int shieldOffset;
-
-    @ConfigOption()
-    public boolean blindnessFog;
+    @ConfigOption(intMin = -100, intMax = 100)
+    public int shieldOffset = -20;
 
     @ConfigOption()
-    public boolean darknessFog;
+    public boolean blindnessFog = false;
 
     @ConfigOption()
-    public boolean lavaFog;
+    public boolean darknessFog = false;
 
     @ConfigOption()
-    public boolean powderSnowFog;
+    public boolean lavaFog = false;
 
     @ConfigOption()
-    public boolean waterFog;
+    public boolean powderSnowFog = false;
+
+    @ConfigOption()
+    public boolean waterFog = false;
 
     @ConfigOption()
     public boolean dimensionBossFog;
