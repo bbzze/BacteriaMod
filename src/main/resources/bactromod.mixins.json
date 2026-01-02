@@ -5,18 +5,17 @@
   "client": [
     "features.boatmap.MixinHeldItemRenderer",
     "features.fog.MixinFogRenderer",
-    "features.fullbright.MixinLightmapTextureManager",
     "features.lowfire.MixinInGameOverlayRenderer",
     "features.lowshield.MixinHeldItemRenderer",
     "features.noopgmswitcher.MixinGameModeSwitcherScreen",
     "features.noopgmswitcher.MixinKeyboard",
     "features.nopumpkinblur.MixinInGameHud",
     "features.riptidetridentshield.MixinHeldItemRenderer",
-    "features.windowborder.MixinWindow",
     "settingsbutton.MixinCreditsAndAttributionScreen"
   ],
   "compatibilityLevel": "JAVA_21",
   "injectors": {
     "defaultRequire": 1
   }
+
 }
