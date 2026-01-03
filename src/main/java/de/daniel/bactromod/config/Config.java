@@ -5,11 +5,8 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.JsonIOException;
 import com.google.gson.JsonSyntaxException;
 import de.daniel.bactromod.BactroMod;
-import de.daniel.bactromod.utils.SystemInfo;
-import de.daniel.bactromod.windowborder.DwmApi;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.client.MinecraftClient;
-
 import java.io.IOException;
 import java.io.Reader;
 import java.io.Writer;
@@ -66,10 +63,6 @@ public class Config {
             BactroMod.LOGGER.error("Could not save config file or directory.", e);
         }
 
-        // Update DWM whenever settings are saved (for dark window-borders in Windows 11)
-        // Make sure window is already initialized
-        if (SystemInfo.isWindows11 && MinecraftClient.getInstance().getWindow() != null)
-            DwmApi.updateDwm(MinecraftClient.getInstance().getWindow().getHandle());
     }
 
     public static ConfigData load() {

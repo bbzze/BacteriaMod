@@ -42,7 +42,6 @@ public abstract class MixinFogRenderer {
                     case 2 -> config.blindnessFog;
                     case 3 -> config.darknessFog;
                     case 4 -> config.waterFog;
-                    case 5 -> config.atmosphericFog;
                     default -> true;
                 };
 
@@ -63,3 +62,4 @@ public abstract class MixinFogRenderer {
     }
 
 }
+

@@ -8,14 +8,11 @@ public class ConfigData {
         bactromod.options.{variableName}.desc
      */
 
-    @ConfigOption(intMin = 0, intMax = 15)
-    public int gammaMultiplier = 15;
-
     @ConfigOption()
     public boolean pumpkinBlur = false;
 
     @ConfigOption(intMin = -100, intMax = 100)
-    public int fireOffset = -30;
+    public int fireOffset = 0;
 
     @ConfigOption(intMin = -100, intMax = 100)
     public int shieldOffset = -20;
@@ -36,15 +33,12 @@ public class ConfigData {
     public boolean waterFog = false;
 
     @ConfigOption()
-    public boolean atmosphericFog = false;
+    public boolean dimensionBossFog = false;
 
     @ConfigOption()
     public boolean showMapWhileInBoat = true;
 
-    @ConfigOption()
+    @ConfigOption() 
     public boolean fixShieldRiptideTrident = true;
-
-    @ConfigOption()
-    public boolean darkWindowBorders = true;
 
 }

@@ -1,4 +1,4 @@
-rootProject.name = "bactromod"
+rootProject.name = "BacteriaMod"
 
 pluginManagement {
     repositories {
@@ -6,4 +6,5 @@ pluginManagement {
         gradlePluginPortal()
         maven("https://maven.fabricmc.net/")
     }
+
 }
